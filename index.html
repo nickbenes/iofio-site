@@ -15,10 +15,17 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- MailChimp CSS -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+	    #mc_embed_signup{background: transparent; text-align: center; clear:left; font:14px Helvetica,Arial,sans-serif; }
+      /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    
     <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
-    <link href="css/site_global.css" rel="stylesheet">
-
+    <link href="css/iofio.css" rel="stylesheet">
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -28,23 +35,46 @@
 
   <body>
 
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand"><img id="logo" src="images/iofiologo.png" alt="iofio" width="128" height="55"/></h3>
-            </div>
-          </div>
-
+    <nav class="navbar navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img src="images/iofiologo.png" alt="iofio" width="128" height="55"/>
+          </a>
         </div>
-
       </div>
+    </nav>
 
-    </div>
+    <div class="container-fluid landing-container">
+
+      <div class="landing-text">
+        <p>Want a better podcast app for your phone?</p>
+        <p>So do we.</p>
+        <p>Help us make it! Sign up for our upcoming beta test.</p>
+      </div>
+      
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="//iofio.us11.list-manage.com/subscribe/post?u=598feb47b4bc9a52b336a37cc&amp;id=8998ebc106" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+          <div class="mc-field-group">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
+          </div>
+          <div class="mc-field-group">
+            <input type="text" value="" name="FNAME" class="email" id="mce-FNAME" placeholder="First Name">
+          </div>
+          <div class="mc-field-group">
+            <input type="text" value="" name="LNAME" class="email" id="mce-LNAME" placeholder="Last Name">
+          </div>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;"><input type="text" name="b_598feb47b4bc9a52b336a37cc_8998ebc106" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
+
+    </div><!-- /.container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
